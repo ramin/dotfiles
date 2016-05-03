@@ -21,7 +21,7 @@ fi
 
 # Finally we can source the dotfiles (order matters)
 
-for DOTFILE in "$DOTFILES_DIR"/system/.{function,function_*,path,env,alias,completion,grep,prompt,custom}; do
+for DOTFILE in "$DOTFILES_DIR"/system/.{function,function_*,path,env,alias,completion,grep,go,prompt,custom}; do
   [ -f "$DOTFILE" ] && . "$DOTFILE"
 done
 
@@ -47,7 +47,7 @@ fi
 
 # Clean up
 
-unset READLINK CURRENT_SCRIPT SCRIPT_PATH DOTFILE
+unset CURRENT_SCRIPT SCRIPT_PATH DOTFILE
 
 # Export
 

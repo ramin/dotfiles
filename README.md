@@ -38,17 +38,5 @@ You can put your custom settings, such as Git credentials in the `system/.custom
 
 Alternatively, you can have an additional, personal dotfiles repo at `~/.extra`.
 
-* The runcom `.bash_profile` sources all `~/.extra/runcom/*.sh` files.
+* The run `.bash_profile` sources all `~/.extra/run/*.sh` files.
 * The installer (`install.sh`) will run `~/.extra/install.sh`.
-
-## Additional resources
-
-* [Awesome Dotfiles](https://github.com/webpro/awesome-dotfiles)
-* [Homebrew](http://brew.sh/) / [FAQ](https://github.com/Homebrew/homebrew/wiki/FAQ)
-* [homebrew-cask](http://caskroom.io/) / [usage](https://github.com/phinze/homebrew-cask/blob/master/USAGE.md)
-* [Bash prompt](http://wiki.archlinux.org/index.php/Color_Bash_Prompt)
-* [Solarized Color Theme for GNU ls](https://github.com/seebi/dircolors-solarized)
-
-## Credits
-
-Many thanks to the [dotfiles community](http://dotfiles.github.io/) and the creators of the incredibly useful tools.

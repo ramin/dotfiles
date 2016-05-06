@@ -1,6 +1,8 @@
 # Bash
 
-is-executable brew && [ -f $(brew --prefix)/share/bash-completion/bash_completion ] && . $(brew --prefix)/share/bash-completion/bash_completion
+if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
+. `brew --prefix`/etc/bash_completion.d/git-completion.bash
+fi
 
 # Dotfiles
 

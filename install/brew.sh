@@ -12,6 +12,8 @@ apps=(
   emacs
   git
   wget
+  rbenv
+  ruby-build
 )
 
 brew install "${apps[@]}"

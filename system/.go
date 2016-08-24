@@ -5,3 +5,5 @@ export GOROOT=`go env GOROOT`
 export PATH=$PATH:$GOROOT/bin
 
 alias gp="cd $GOPATH"
+
+export CDPATH=.:$GOPATH/src/github.com:$GOPATH/src/golang.org:$GOPATH/src

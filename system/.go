@@ -1,6 +1,8 @@
 export GOPATH=~/Go
 export PATH=$PATH:$GOPATH/bin
 
+export GOBIN=$GOPATH/bin
+
 export GOROOT=`go env GOROOT`
 export PATH=$PATH:$GOROOT/bin
 

@@ -52,3 +52,5 @@ unset CURRENT_SCRIPT SCRIPT_PATH DOTFILE
 # Export
 
 export OS DOTFILES_DIR EXTRA_DIR
+
+export PATH="$HOME/.cargo/bin:$PATH"

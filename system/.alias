@@ -1,5 +1,6 @@
 # Shortcuts
 
+alias vs="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 alias code="cd ~/Code"
 
 is-executable hub && eval "$(hub alias -s)" # alias git=hub

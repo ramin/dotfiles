@@ -11,8 +11,8 @@ apps=(
   emacs
   git
   wget
-  rbenv
-  ruby-build
+#   rbenv
+#   ruby-build
   go
   kubectl
 )

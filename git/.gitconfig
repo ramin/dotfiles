@@ -41,3 +41,6 @@
 
 [push]
   default = simple
+
+[url "ssh://git@github.com/whiteblock/"]
+  insteadOf = https://github.com/whiteblock/

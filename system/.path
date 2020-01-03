@@ -17,6 +17,7 @@ prepend-path "/usr/local/sbin"
 prepend-path "$HOME/.rvm/bin"
 prepend-path "$HOME/.cargo/bin"
 prepend-path "$HOME/go/bin"
+prepend-path "$HOME/.bin/"
 prepend-path "/usr/local/kubebuilder/bin"
 prepend-path "/usr/local/kustomize"
 

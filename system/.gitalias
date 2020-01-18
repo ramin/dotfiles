@@ -2,10 +2,10 @@
 # Git Aliases
 # ----------------------
 
-alias gc='git checkout'
-__git_complete gc _git_checkout
+alias gch='git checkout'
+__git_complete gch _git_checkout
 
-alias gp="git push"
+alias gp='git push'
 __git_complete gp _git_push
 
 alias gs='git status'
@@ -18,6 +18,5 @@ alias gcb='git checkout -b'
 alias gcm='git checkout master'
 alias gf='git fetch'
 alias g="git"
-alias gp='git pull'
 alias gpr='git pull --rebase'
 alias gs='git status'

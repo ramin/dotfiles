@@ -1,0 +1,23 @@
+# ----------------------
+# Git Aliases
+# ----------------------
+
+alias gc='git checkout'
+__git_complete gc _git_checkout
+
+alias gp="git push"
+__git_complete gp _git_push
+
+alias gs='git status'
+alias ga='git add .'
+alias gad='git add .'
+alias gb='git branch'
+alias gbd='git branch --delete '
+alias gc='git commit'
+alias gcb='git checkout -b'
+alias gcm='git checkout master'
+alias gf='git fetch'
+alias g="git"
+alias gp='git pull'
+alias gpr='git pull --rebase'
+alias gs='git status'

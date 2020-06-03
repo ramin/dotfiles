@@ -4,3 +4,4 @@
 ~/.emacs.d/auto-save-list
 ~/.emacs.d/backups
 scratch.go
+cmd/scratch/main.go

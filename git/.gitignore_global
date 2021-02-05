@@ -4,4 +4,7 @@
 ~/.emacs.d/auto-save-list
 ~/.emacs.d/backups
 scratch.go
+scratch.ts
 cmd/scratch/main.go
+dummy.tf
+*.terraform*
